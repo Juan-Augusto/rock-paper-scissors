@@ -5,7 +5,7 @@ function game() {
   let gamesPlayed = document.getElementById("games-played");
   let computerResult = document.getElementById("computer-choice");
   let victoryPercentage =   document.getElementById("victory-percentage");
-
+  let sectionHeight = document.getElementById("pre-game");
   let result = document.getElementById("result");
   let choose = ["Pedra", "Papel", "Tesoura"];
   let computerChoice = choose[Math.floor(Math.random() * choose.length)];
@@ -44,7 +44,8 @@ function game() {
     computerResult.innerHTML = `<h2>Escolha da máquina: ${computerChoice}<h2>`;
     result.innerHTML = `<h2>Você Perdeu!<h2>`;
   }
-  
+  sectionHeight.classList.add('height')
+  result.classList.add('show');
   results.length === 1 ? gamesPlayed.innerHTML = `<h2>Você jogou ${results.length} vez</h2>` : gamesPlayed.innerHTML = `<h2>Você jogou ${results.length} vezes</h2>`;
   victoryPercentage.innerHTML = `<h2>Percentual de vitória: ${Math.round((victories.length / results.length) * 100, -2)}%</h2>`;
 }
