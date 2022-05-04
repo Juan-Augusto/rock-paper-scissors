@@ -46,5 +46,5 @@ function game() {
   }
   
   results.length === 1 ? gamesPlayed.innerHTML = `<h2>Você jogou ${results.length} vez</h2>` : gamesPlayed.innerHTML = `<h2>Você jogou ${results.length} vezes</h2>`;
-  victoryPercentage.innerHTML = `<h2>Percentual de vitória: ${(victories.length / results.length) * 100}</h2>`;
+  victoryPercentage.innerHTML = `<h2>Percentual de vitória: ${Math.round((victories.length / results.length) * 100, -2)}%</h2>`;
 }
