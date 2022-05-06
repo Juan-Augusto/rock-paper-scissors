@@ -1,5 +1,5 @@
 
-# Rock, paper, scissors
+# :fist: Rock, :hand: paper, :v: scissors
 
 Este projeto faz parte da ementa da ementa do curso de 
 Análise e Denselvolvimento de Sistemas, na disciplina de 
@@ -7,12 +7,12 @@ Raciocínio Lógico e Algorítimico.
 
 
 
-## Universidade
+## :school: Universidade
 
  - Universidade de Fortaleza
 
 
-##  Descrição
+## :books: Descrição
 
 Este projeto consiste em uma simples integração de 
 HTML com JavaScript para execução de um jogo de pedra, 
@@ -29,7 +29,7 @@ item respectivo ao index aleatoriamente escolhido.
 Em seguida, há comparação do escolhido pelo usuário com o escolhido
 pela máquina e retorna a validação do resultado.
 
-## Autor
+## :adult: Autor
 
 - [@Juan-Augusto](https://www.linkedin.com/in/juan-soares-881877177/)
 
